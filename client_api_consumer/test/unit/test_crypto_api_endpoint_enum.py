@@ -1,6 +1,7 @@
 import sys
-from crypto_api.crypto_api_endpoint_enum import EndpointEnum
 sys.path.append(".")
+
+from crypto_api.crypto_api_endpoint_enum import EndpointEnum  # noqa:E402
 
 
 def test_is_endpoint_key_valid():
