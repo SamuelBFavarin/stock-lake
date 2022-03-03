@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class EndpointEnum(Enum):
     """
     Provides a set of endpoint constants composed of a dict with
@@ -21,10 +22,11 @@ class EndpointEnum(Enum):
 
     TRENDING_COINS = {
         "endpoint": "/search/trending",
-        "description": "Top-7 trending coins on CoinGecko as searched by users in the last 24 hours (Ordered by most popular first)",
+        "description": """Top-7 trending coins on CoinGecko
+                          as searched by users in the last 24 hours
+                          (Ordered by most popular first)""",
         "records_key": "coins",
     }
-
 
     @classmethod
     def is_endpoint_key_valid(cls, endpoint):
