@@ -10,7 +10,7 @@ unit-tests-client-api:
 .PHONY: flake-client-api
 flake-client-api:
 	@echo ""
-	@echo "Client API Unit Tests"
+	@echo "Client API Flake8"
 	@echo "=========="
 	@echo ""
 	@flake8 ./client_api_consumer --count --select=E9,F63,F7,F82 --show-source --statistics
