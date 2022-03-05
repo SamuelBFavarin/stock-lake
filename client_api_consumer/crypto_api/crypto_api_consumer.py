@@ -1,5 +1,6 @@
 from api_consumer import ApiConsumer
 from crypto_api_endpoint_enum import EndpointEnum
+import json
 
 
 class CryptoApiConsumer(ApiConsumer):
@@ -11,6 +12,6 @@ class CryptoApiConsumer(ApiConsumer):
     def set_credentials(self, api_token: str):
         self.api_token = api_token
 
-    def request(self, endpont: EndpointEnum, method: str, is_paginated: bool = False):
+    def request(self, endpont: EndpointEnum, method: str, is_paginated: bool = False) -> json:
         super().request(endpont, method, is_paginated)
         pass
