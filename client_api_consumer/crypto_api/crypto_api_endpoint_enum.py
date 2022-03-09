@@ -12,13 +12,13 @@ class EndpointEnum(Enum):
         "endpoint": "/ping",
         "description": "Check API server status",
         "records_key": "gecko_says",
-    },
+    }
 
     GLOBAL_CRYPTOCURRENCY = {
         "endpoint": "/global",
         "description": "Get cryptocurrency global data",
         "records_key": "data",
-    },
+    }
 
     TRENDING_COINS = {
         "endpoint": "/search/trending",
