@@ -1,6 +1,6 @@
 ####################### PYTHON commands #######################
-.PHONY: unit-tests-client-api
-unit-tests-client-api:
+.PHONY: tests-client-api
+tests-client-api:
 	@echo ""
 	@echo "Client API Unit Tests"
 	@echo "=========="
