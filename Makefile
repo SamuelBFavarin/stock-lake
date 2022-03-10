@@ -15,3 +15,12 @@ flake-client-api:
 	@echo ""
 	@flake8 ./client_api_consumer --count --select=E9,F63,F7,F82 --show-source --statistics
 	@flake8 ./client_api_consumer --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+.PHONY: flake-spark-job
+flake-spark-job:
+	@echo ""
+	@echo "Spark Job Flake8"
+	@echo "=========="
+	@echo ""
+	@flake8 ./spark_job --count --select=E9,F63,F7,F82 --show-source --statistics
+	@flake8 ./spark_job --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
