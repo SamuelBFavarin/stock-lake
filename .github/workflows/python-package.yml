@@ -39,3 +39,7 @@ jobs:
       run: | 
         cd client_api_consumer/
         python -m pytest --import-mode=append
+    - name: Test Spark Job with pytest
+      run: | 
+        cd spark_job/
+        python -m pytest --import-mode=append
