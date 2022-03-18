@@ -1,6 +1,6 @@
 from urllib import response
 from api_consumer import ApiConsumer
-from .crypto_api_endpoint_enum import EndpointEnum
+from crypto_api.crypto_api_endpoint_enum import EndpointEnum
 import json
 import requests
 
