@@ -1,3 +1,13 @@
+####################### RUN CI #######################
+.PHONY: run-ci
+run-ci:
+	@echo "RUN All Commands"
+	@make tests-client-api
+	@make flake-client-api
+	@echo "RUN Spark Job"
+	@make tests-spark-job
+	@make flake-spark-job
+
 ####################### CLIENT API commands #######################
 .PHONY: tests-client-api
 tests-client-api:
@@ -17,7 +27,7 @@ flake-client-api:
 	@flake8 ./client_api_consumer --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
 ####################### SPARK JOBS commands #######################
-.PHONY: tests-client-api
+.PHONY: tests-spark-job
 tests-spark-job:
 	@echo ""
 	@echo "Spark Job Unit Tests"

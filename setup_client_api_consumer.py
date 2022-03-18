@@ -3,7 +3,7 @@
 """The setup script."""
 
 __package_name__ = "client-api-consumer"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from setuptools import setup, find_packages
 
