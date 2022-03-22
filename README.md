@@ -1,6 +1,7 @@
 # Stock Lake 📈 
 
-[![Python package](https://github.com/SamuelBFavarin/stock-lake/actions/workflows/python-package.yml/badge.svg)](https://github.com/SamuelBFavarin/stock-lake/actions/workflows/python-package.yml)
+[![Python package](https://github.com/SamuelBFavarin/stock-lake/actions/workflows/python-package.yml/badge.svg)](https://github.com/SamuelBFavarin/stock-lake/actions/workflows/python-package.yml) ![GitHub forks](https://img.shields.io/github/forks/SamuelBFavarin/stock-lake) [![GitHub issues](https://img.shields.io/github/issues/SamuelBFavarin/stock-lake)](https://github.com/SamuelBFavarin/stock-lake/issues) [![GitHub license](https://img.shields.io/github/license/SamuelBFavarin/stock-lake)](https://github.com/SamuelBFavarin/stock-lake)
+
 
 This is a project to implement a Data Lake of Stocks, Cryptos, and NFTs using a data pipeline architecture 🎲
 
